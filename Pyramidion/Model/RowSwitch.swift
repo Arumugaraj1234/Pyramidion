@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class RowSwitch {
+    var switchStatus: Bool
+    
+    init(switchStatus: Bool) {
+        self.switchStatus = switchStatus
+    }
+}

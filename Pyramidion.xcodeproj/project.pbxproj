@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5264D17724DC1ED2009742EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D17624DC1ED2009742EA /* AppDelegate.swift */; };
-		5264D17924DC1ED2009742EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D17824DC1ED2009742EA /* ViewController.swift */; };
 		5264D17C24DC1ED2009742EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5264D17A24DC1ED2009742EA /* Main.storyboard */; };
 		5264D17E24DC1ED4009742EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5264D17D24DC1ED4009742EA /* Assets.xcassets */; };
 		5264D18124DC1ED4009742EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5264D17F24DC1ED4009742EA /* LaunchScreen.storyboard */; };
 		5264D18C24DC1ED4009742EA /* PyramidionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D18B24DC1ED4009742EA /* PyramidionTests.swift */; };
+		5264D19A24DC1FC4009742EA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D19924DC1FC4009742EA /* LoginVC.swift */; };
+		5264D19C24DC20D2009742EA /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D19B24DC20D2009742EA /* CustomTF.swift */; };
+		5264D19F24DC284F009742EA /* TWCameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D19E24DC284F009742EA /* TWCameraHandler.swift */; };
+		5264D1A124DC57CA009742EA /* ShowTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D1A024DC57CA009742EA /* ShowTableVC.swift */; };
+		5264D1A324DC5861009742EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D1A224DC5861009742EA /* Constants.swift */; };
+		5264D1A524DC5C86009742EA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D1A424DC5C86009742EA /* CustomCell.swift */; };
+		5264D1A724DC5E28009742EA /* RowSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264D1A624DC5E28009742EA /* RowSwitch.swift */; };
+		52B8DA9324DD045700455155 /* SectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8DA9224DD045700455155 /* SectionHeaderCell.swift */; };
+		52B8DA9524DD0F4E00455155 /* AddRowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8DA9424DD0F4E00455155 /* AddRowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,6 @@
 /* Begin PBXFileReference section */
 		5264D17324DC1ED2009742EA /* Pyramidion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pyramidion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5264D17624DC1ED2009742EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5264D17824DC1ED2009742EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5264D17B24DC1ED2009742EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5264D17D24DC1ED4009742EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5264D18024DC1ED4009742EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,15 @@
 		5264D18724DC1ED4009742EA /* PyramidionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyramidionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5264D18B24DC1ED4009742EA /* PyramidionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidionTests.swift; sourceTree = "<group>"; };
 		5264D18D24DC1ED5009742EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5264D19924DC1FC4009742EA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5264D19B24DC20D2009742EA /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		5264D19E24DC284F009742EA /* TWCameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWCameraHandler.swift; sourceTree = "<group>"; };
+		5264D1A024DC57CA009742EA /* ShowTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTableVC.swift; sourceTree = "<group>"; };
+		5264D1A224DC5861009742EA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5264D1A424DC5C86009742EA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		5264D1A624DC5E28009742EA /* RowSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowSwitch.swift; sourceTree = "<group>"; };
+		52B8DA9224DD045700455155 /* SectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCell.swift; sourceTree = "<group>"; };
+		52B8DA9424DD0F4E00455155 /* AddRowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +93,11 @@
 		5264D17524DC1ED2009742EA /* Pyramidion */ = {
 			isa = PBXGroup;
 			children = (
+				5264D19D24DC27B3009742EA /* Support_Files */,
+				5264D19824DC1F7D009742EA /* Model */,
+				5264D19724DC1F73009742EA /* View */,
+				5264D19624DC1F5E009742EA /* Controller */,
 				5264D17624DC1ED2009742EA /* AppDelegate.swift */,
-				5264D17824DC1ED2009742EA /* ViewController.swift */,
 				5264D17A24DC1ED2009742EA /* Main.storyboard */,
 				5264D17D24DC1ED4009742EA /* Assets.xcassets */,
 				5264D17F24DC1ED4009742EA /* LaunchScreen.storyboard */,
@@ -94,6 +113,43 @@
 				5264D18D24DC1ED5009742EA /* Info.plist */,
 			);
 			path = PyramidionTests;
+			sourceTree = "<group>";
+		};
+		5264D19624DC1F5E009742EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5264D19924DC1FC4009742EA /* LoginVC.swift */,
+				5264D1A024DC57CA009742EA /* ShowTableVC.swift */,
+				52B8DA9424DD0F4E00455155 /* AddRowVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5264D19724DC1F73009742EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5264D19B24DC20D2009742EA /* CustomTF.swift */,
+				5264D1A424DC5C86009742EA /* CustomCell.swift */,
+				52B8DA9224DD045700455155 /* SectionHeaderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5264D19824DC1F7D009742EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5264D1A624DC5E28009742EA /* RowSwitch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5264D19D24DC27B3009742EA /* Support_Files */ = {
+			isa = PBXGroup;
+			children = (
+				5264D19E24DC284F009742EA /* TWCameraHandler.swift */,
+				5264D1A224DC5861009742EA /* Constants.swift */,
+			);
+			path = Support_Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5264D17924DC1ED2009742EA /* ViewController.swift in Sources */,
+				5264D19A24DC1FC4009742EA /* LoginVC.swift in Sources */,
 				5264D17724DC1ED2009742EA /* AppDelegate.swift in Sources */,
+				5264D1A124DC57CA009742EA /* ShowTableVC.swift in Sources */,
+				52B8DA9324DD045700455155 /* SectionHeaderCell.swift in Sources */,
+				5264D19F24DC284F009742EA /* TWCameraHandler.swift in Sources */,
+				5264D1A724DC5E28009742EA /* RowSwitch.swift in Sources */,
+				5264D19C24DC20D2009742EA /* CustomTF.swift in Sources */,
+				5264D1A524DC5C86009742EA /* CustomCell.swift in Sources */,
+				5264D1A324DC5861009742EA /* Constants.swift in Sources */,
+				52B8DA9524DD0F4E00455155 /* AddRowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

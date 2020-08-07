@@ -8,17 +8,26 @@
 
 import UIKit
 
+protocol SwichChangeDelegate {
+    func onSwitchStatusChanged(cell: CustomCell)
+}
+
 class CustomCell: UITableViewCell {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var switchBtn: UISwitch!
+    
+    var delegate: SwichChangeDelegate?
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+
+    func configureCell(object: RowSwitch, index: Int, section: Int){
+        label.text = "SECTION: \(section) - ROW: \(index)"
+        switchBtn.isOn = object.switchStatus
+    }
+    
+    @IBAction func onSwitchTapped(_ sender: UISwitch){
+        delegate?.onSwitchStatusChanged(cell: self)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
 
 }

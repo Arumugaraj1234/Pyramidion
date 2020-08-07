@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+//MARK:- SEQUES
+let LOGIN_TO_SHOW_TABLE = "loginToShowTable"
+let TO_ADD_NEWROWVC = "toAddRowVc"
+
